@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { BorrowersPageRoutingModule } from './borrowers-routing.module';
 
 import { BorrowersPage } from './borrowers.page';
+import { AddBorrowerComponent } from 'src/app/modals/add-borrower/add-borrower.component';
 
 @NgModule({
   imports: [
@@ -15,6 +16,9 @@ import { BorrowersPage } from './borrowers.page';
     IonicModule,
     BorrowersPageRoutingModule
   ],
-  declarations: [BorrowersPage]
+  declarations: [
+    BorrowersPage,
+    AddBorrowerComponent
+  ]
 })
 export class BorrowersPageModule {}
