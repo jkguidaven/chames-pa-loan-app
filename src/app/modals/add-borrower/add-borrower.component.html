@@ -1,3 +1,70 @@
-<p>
-  add-borrower works!
-</p>
+<ion-toolbar>
+  <ion-title>Borrower's Information</ion-title>
+</ion-toolbar>
+
+<ion-content>
+  <ion-list lines="full">
+    <ion-item-divider>
+      <ion-label>
+        Personal Information
+      </ion-label>
+    </ion-item-divider>
+
+    <ion-item>
+      <ion-label>First Name</ion-label>
+      <ion-input autocomplete="off" class="ion-text-right"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Middle Name</ion-label>
+      <ion-input autocomplete="off" class="ion-text-right"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Last Name</ion-label>
+      <ion-input autocomplete="off" class="ion-text-right"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Birthdate</ion-label>
+      <ion-datetime display-timezone="utc"></ion-datetime>
+    </ion-item>
+
+    <ion-item-divider>
+      <ion-label>
+        Income Information
+      </ion-label>
+    </ion-item-divider>
+
+    <ion-item>
+      <ion-label>Occupation</ion-label>
+      <ion-input autocomplete="off" class="ion-text-right"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Source of Income</ion-label>
+      <ion-input autocomplete="off" class="ion-text-right"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Income per month</ion-label>
+      <ion-input autocomplete="off" class="ion-text-right"></ion-input>
+    </ion-item>
+
+    <ion-item-divider>
+      <ion-label>
+        Contact Information
+      </ion-label>
+    </ion-item-divider>
+
+    <ion-item>
+      <ion-label>Phone No.</ion-label>
+      <ion-input autocomplete="off" inputmode="tel" class="ion-text-right"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Email</ion-label>
+      <ion-input autocomplete="off" inputmode="email" class="ion-text-right"></ion-input>
+    </ion-item>
+  </ion-list>
+</ion-content>
