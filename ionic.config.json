@@ -1,0 +1,7 @@
+{
+  "name": "chames-pa-loan-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
